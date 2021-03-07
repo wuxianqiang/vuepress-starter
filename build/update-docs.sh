@@ -12,7 +12,7 @@ git config user.name "wuxianqiang"
 git config user.email "2631640352@qq.com"
 git add -A
 git commit -m "[vuepress] update docs"
-git push --force "https://${secrets.HEXO_DEPLOY_PRIVATE_KEY}@github.com/wuxianqiang/vuepress-starter.git" "master:gh-pages"
+git push --force "https://${TOKEN}@github.com/wuxianqiang/vuepress-starter.git" "master:gh-pages"
 
 # Cleanup
 cd ../..
